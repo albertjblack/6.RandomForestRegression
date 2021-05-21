@@ -18,6 +18,6 @@ plt.scatter(x, y, color = "red")
 plt.plot(x_opt, regressor.predict(x_opt), color = "blue")
 plt.show()
 
-value = 7
+value = 6.5
 prediction = regressor.predict([[value]])
 print(prediction[0])
